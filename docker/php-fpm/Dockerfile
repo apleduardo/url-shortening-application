@@ -1,4 +1,4 @@
-FROM php:7.2-fpm
+FROM php:7.2.25-alpine
 
 COPY wait-for-it.sh /usr/bin/wait-for-it
 
@@ -6,7 +6,7 @@ RUN chmod +x /usr/bin/wait-for-it
 
 RUN docker-php-ext-install pdo_mysql
 
-RUN  apt-get update && apt-get -y install zip
+RUN apk --update --no-cache add zip
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 

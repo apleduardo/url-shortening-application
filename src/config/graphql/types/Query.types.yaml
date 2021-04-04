@@ -1,0 +1,12 @@
+Query:
+  type: object
+  config:
+    description: "Main Query"
+    fields:
+      shortneerUrl:
+        type: ShortnnerUrl
+        args:
+          url:
+            description: "short a new url"
+            type: String
+        resolve: "@=resolver('ShortnnerUrl', [args])"

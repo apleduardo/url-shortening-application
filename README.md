@@ -43,7 +43,7 @@ docker
 ## Install
 
 1 clone the project
-2 set yours enviorioment variables in src/.env, you can use the default's if attends yourself requiriments.
+2 set yours enviorioment variables in src/.env, you can use the default's in .env-example, if attends yourself requiriments.
 
 3 up the application 
 ``` bash
@@ -51,19 +51,19 @@ $ cd docker/
 $ docker-compose up
 ```
 
-4 run php composer dependences:
-
-``` bash
-$ cd docker/
-$ docker-compose up
-```
-
-
 ## Usage
 
-``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+Access http://localhost/graphiql
+with the json below and enjoy :) 
+
+``` bash
+mutation{
+  createShortner(input: {
+    originalUrl: "https://stackoverflow.com/questions/51612208/how-to-delete-cached-intermediate-docker-images-after-the-cache-gets-invalidated"
+  }) {
+    url
+ } 
+}
 ```
 
 ## Change log

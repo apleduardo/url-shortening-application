@@ -301,3 +301,16 @@ $classes[] = 'Symfony\Component\HttpKernel\DependencyInjection\LazyLoadingFragme
 $classes[] = 'Symfony\Component\HttpKernel\EventListener\ValidateRequestListener';
 
 Preloader::preload($classes);
+require_once __DIR__.'/twig/46/46247943f49f7c12a740eef33a8b219014ef2b7f14bca8e556ce4133472eed75.php';
+require_once __DIR__.'/twig/17/1731eed54abd838ec1941155d0dae0b2c58aafd6d722be676b95e84187e36a14.php';
+require_once __DIR__.'/twig/53/53e2501fc671850506dfa78c23d1bbfbbd47252149f47b59a2d7b55628c59a2b.php';
+require_once __DIR__.'/twig/0f/0f047fdfa9020b86d762054a1586ff7686d341b7e7d0f5fafd1533ef52e055ad.php';
+
+$classes = [];
+$classes[] = 'Symfony\\Component\\Routing\\Generator\\CompiledUrlGenerator';
+$classes[] = 'Symfony\\Bundle\\FrameworkBundle\\Routing\\RedirectableCompiledUrlMatcher';
+$classes[] = 'Symfony\\Component\\Routing\\Annotation\\Route';
+$classes[] = 'Doctrine\\ORM\\Mapping\\Entity';
+$classes[] = 'Doctrine\\ORM\\Mapping\\Id';
+$classes[] = 'Doctrine\\ORM\\Mapping\\Column';
+Preloader::preload($classes);

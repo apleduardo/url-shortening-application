@@ -1,0 +1,11 @@
+ShortnerUrl:
+  type: object
+  config:
+    description: "An url shortner"
+    fields:
+      originalUrl:
+        type: "String"
+        description: "Original url"
+      url:
+        type: "String"
+        description: "new url"

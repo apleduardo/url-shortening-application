@@ -1,8 +1,0 @@
-ShortnnerUrl:
-  type: object
-  config:
-    description: "An url shortneer"
-    fields:
-      url:
-        type: "String"
-        description: "url"

@@ -1,2 +1,6 @@
 overblog_graphiql_endpoint:
     resource: "@OverblogGraphiQLBundle/Resources/config/routing.xml"
+
+shortner_url:
+    path: /{path}
+    controller: App\Controller\ShortnerController::redirectToUrl

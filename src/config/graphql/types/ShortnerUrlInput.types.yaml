@@ -1,0 +1,7 @@
+ShortnerUrlInput:
+  type: input-object
+  config:
+    fields:
+      originalUrl:
+        type: "String"
+        description: "Url to shortening"

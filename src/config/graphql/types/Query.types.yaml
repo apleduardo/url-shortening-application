@@ -3,10 +3,10 @@ Query:
   config:
     description: "Main Query"
     fields:
-      shortneerUrl:
-        type: ShortnnerUrl
+      shortnerUrl:
+        type: ShortnerUrl
         args:
           url:
             description: "short a new url"
             type: String
-        resolve: "@=resolver('ShortnnerUrl', [args])"
+        resolve: "@=resolver('ShortnerUrl', [args])"

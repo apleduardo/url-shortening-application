@@ -1,0 +1,10 @@
+Mutation:
+  type: object
+  config:
+    fields:
+      createShortner:
+              type: "ShortnerUrl"
+              resolve: "@=mutation('create_shortner', [args])"
+              args:
+                  input:
+                      type: "ShortnerUrlInput"

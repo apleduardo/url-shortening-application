@@ -1,12 +1,5 @@
 # Shortner url application
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
-
 ## About Shortner url application
 
 This application is used to create shorter aliases for long URLs.
@@ -15,10 +8,9 @@ This application is used to create shorter aliases for long URLs.
 
 Docker
 Docker compose
-Symfomy php framework
+Symfony php framework
 Graphql 
 MariaDB 
-
 
 ## Structure
 ```
@@ -43,7 +35,7 @@ docker
 ## Install
 
 1 clone the project
-2 set yours enviorioment variables in src/.env, you can use the default's in .env-example, if attends yourself requiriments.
+2 set yours enviorioment variables in docker/.env, you can use the default's, if attends yourself requiriments.
 
 3 up the application 
 ``` bash

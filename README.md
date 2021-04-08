@@ -57,7 +57,7 @@ mutation{
  } 
 }
 ```
-Or you can run the frontend application
+you can run too the frontend application
 ``` bash
 $ cd front/
 $ yarn install

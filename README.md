@@ -35,7 +35,7 @@ docker
 ## Install
 
 1 clone the project
-2 set yours enviorioment variables in docker/.env, you can use the default's, if attends yourself requiriments.
+2 set yours environment variables in docker/.env, you can use the default's, if attends yourself requirements.
 
 3 up the application 
 ``` bash
@@ -56,6 +56,12 @@ mutation{
     url
  } 
 }
+```
+Or you can run the frontend application
+``` bash
+$ cd front/
+$ yarn install
+$ yarn start
 ```
 
 ## Change log

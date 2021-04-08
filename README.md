@@ -4,7 +4,7 @@
 
 This application is used to create shorter aliases for long URLs.
 
-## dependences
+## Dependences
 
 Docker
 Docker compose
@@ -64,8 +64,10 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Testing
 
+In /docker run:
+
 ``` bash
-$ composer test
+$ docker-compose exec php-fpm bin/phpunit
 ```
 
 ## Contributing
